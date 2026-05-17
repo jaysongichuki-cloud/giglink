@@ -2,8 +2,8 @@
 
 **Connecting students to quick gigs** — a student-friendly freelance marketplace built with React, JSON Server, and Firebase Auth.
 
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![Tests](https://img.shields.io/badge/coverage-%E2%89%A530%25-green)
+<!-- ![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![Tests](https://img.shields.io/badge/coverage-%E2%89%A530%25-green) -->
 
 ## Features
 
@@ -108,14 +108,14 @@ See [CHANGELOG.md](./CHANGELOG.md) for release notes.
 
 | Requirement | Status |
 |-------------|--------|
-| React routing | ✅ React Router v7 |
-| Social authentication | ✅ Firebase Google + GitHub |
-| GitHub Actions deployment | ✅ `.github/workflows/` |
-| Fully responsive | ✅ Tailwind CSS |
-| Data persistence (no localStorage) | ✅ JSON Server |
-| 30% test coverage | ✅ Vitest thresholds |
-| Standard application flow | ✅ Home → Browse → Detail → Apply → Dashboard |
-| Semantic versioning release | ✅ v1.0.0 |
+| React routing |  React Router v7 |
+| Social authentication |  Firebase Google + GitHub |
+| GitHub Actions deployment |  `.github/workflows/` |
+| Fully responsive |  Tailwind CSS |
+| Data persistence (no localStorage) |  JSON Server |
+| 30% test coverage |  Vitest thresholds |
+| Standard application flow |  Home → Browse → Detail → Apply → Dashboard |
+| Semantic versioning release |  v1.0.0 |
 
 ## License
 
