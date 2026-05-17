@@ -1,0 +1,99 @@
+{
+  "users": [
+    {
+      "id": "demo-user-1",
+      "firebaseUid": "demo-user-1",
+      "name": "Alex Student",
+      "email": "alex@campus.edu",
+      "avatar": "",
+      "provider": "demo"
+    },
+    {
+      "id": "Sd25d5mEYDXsFTTdv9TKaQ5aLmV2",
+      "firebaseUid": "Sd25d5mEYDXsFTTdv9TKaQ5aLmV2",
+      "name": "Jayson Gichuki",
+      "email": "jaysongichuki025@gmail.com",
+      "avatar": "https://lh3.googleusercontent.com/a/ACg8ocI4FBu7PAiOaPU1zHSjbejbYTg1KDoUrxpV3Lj-kc6UnBYnsw=s96-c",
+      "provider": "google"
+    },
+    {
+      "id": "P2IA1azVUTbtDuthYTWPx2UMhyl1",
+      "firebaseUid": "P2IA1azVUTbtDuthYTWPx2UMhyl1",
+      "name": "Sau Pau",
+      "email": "saupau16748@gmail.com",
+      "avatar": "https://lh3.googleusercontent.com/a/ACg8ocJHiQP1jrCg0aWlYYXPxOUxS1hoRewk17OVrFKg_K7Zd5vBNA=s96-c",
+      "provider": "google"
+    }
+  ],
+  "gigs": [
+    {
+      "id": 1,
+      "title": "Logo Design for Campus Club",
+      "description": "Need a modern, friendly logo for our robotics club social pages. Deliver PNG and SVG.",
+      "price": 2500,
+      "category": "Design",
+      "location": "On Campus",
+      "userId": "demo-user-1",
+      "createdAt": "2026-05-10T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "React Homework Help",
+      "description": "Two-hour session to debug a React Router assignment before Friday deadline.",
+      "price": 1500,
+      "category": "Tutoring",
+      "location": "Remote",
+      "userId": "demo-user-1",
+      "createdAt": "2026-05-12T14:30:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "Event Flyer Distribution",
+      "description": "Hand out 100 flyers around the student center this weekend. 3 hours total.",
+      "price": 1200,
+      "category": "Errands",
+      "location": "Student Center",
+      "userId": "demo-user-1",
+      "createdAt": "2026-05-14T09:00:00.000Z"
+    },
+    {
+      "title": "House help",
+      "description": "Cleaning the house",
+      "price": 1000,
+      "category": "Errands",
+      "location": "remote",
+      "userId": "Sd25d5mEYDXsFTTdv9TKaQ5aLmV2",
+      "createdAt": "2026-05-17T11:43:27.293Z",
+      "id": 4
+    }
+  ],
+  "applications": [
+    {
+      "id": 1,
+      "gigId": 1,
+      "userId": "demo-user-1",
+      "applicantName": "Jordan Lee",
+      "coverLetter": "Design student with portfolio ready. Can deliver in 48 hours.",
+      "status": "pending",
+      "createdAt": "2026-05-11T16:00:00.000Z"
+    },
+    {
+      "gigId": 1,
+      "userId": "Sd25d5mEYDXsFTTdv9TKaQ5aLmV2",
+      "applicantName": "Jayson Gichuki",
+      "coverLetter": "jayson",
+      "status": "pending",
+      "createdAt": "2026-05-17T11:43:53.740Z",
+      "id": 2
+    },
+    {
+      "gigId": 4,
+      "userId": "P2IA1azVUTbtDuthYTWPx2UMhyl1",
+      "applicantName": "Sau Pau",
+      "coverLetter": "jayson",
+      "status": "accepted",
+      "createdAt": "2026-05-17T11:45:37.257Z",
+      "id": 3
+    }
+  ]
+}
