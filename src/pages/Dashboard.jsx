@@ -103,19 +103,23 @@ export default function Dashboard() {
                       <p className="text-sm text-brand-700">{formatPrice(gig.price)}</p>
                     </div>
                     <div className="flex gap-2">
-                      <Link
-                        to={`/gigs/${gig.id}/edit`}
-                        className="text-sm text-brand-600 hover:underline"
-                      >
-                        Edit
-                      </Link>
-                      <button
-                        type="button"
-                        onClick={() => handleDeleteGig(gig.id)}
-                        className="text-sm text-red-600 hover:underline"
-                      >
-                        Delete
-                      </button>
+                      {user && user.id && gig.userId === user.id && (
+                        <>
+                          <Link
+                            to={`/gigs/${gig.id}/edit`}
+                            className="text-sm text-brand-600 hover:underline"
+                          >
+                            Edit
+                          </Link>
+                          <button
+                            type="button"
+                            onClick={() => handleDeleteGig(gig.id)}
+                            className="text-sm text-red-600 hover:underline"
+                          >
+                            Delete
+                          </button>
+                        </>
+                      )}
                     </div>
                   </div>
                 </li>
